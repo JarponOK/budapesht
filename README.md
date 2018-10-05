@@ -1,4 +1,4 @@
-### Budapest Test Project
+# Budapest Test Project
 
 ## Installation
 
