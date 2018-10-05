@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default App = () => (
+export default () => (
   <div>
     hello from App Container
   </div>
