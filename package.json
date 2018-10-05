@@ -1,0 +1,19 @@
+{
+    "name": "budapest",
+    "version": "1.0.0",
+    "contributors": [
+        {
+            "name": "Inessa Gracheva"
+        },
+        {
+            "name": "Oleg Kipchatov"
+        },
+        {
+            "name": "Maxim Kudryavtsev"
+        }],
+    "devDependencies": {
+        "webpack": "4.20.2",
+        "react": "^16.5.2",
+        "react-dom": "16.5.2"
+    }
+}
