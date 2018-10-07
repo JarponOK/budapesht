@@ -12,8 +12,12 @@
       "name": "Maxim Kudryavtsev"
     }
   ],
+  "scripts": {
+    "build": "webpack --mode development"
+  },
   "devDependencies": {
     "webpack": "4.20.2",
+    "webpack-cli": "^3.1.2",
     "react": "^16.5.2",
     "react-dom": "16.5.2",
     "eslint": "5.6.1",
@@ -23,7 +27,16 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.24.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "@babel/core": "^7.1.2",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0"
   },
   "dependencies": {
     "react": "^16.5.2",
