@@ -1,5 +1,6 @@
 <?php
-echo "string";
-$a = 10;
-echo $a;
+if( $_SERVER['REQUEST_URI'] == "/index.php" ) {
+ header( "Location: /", TRUE, 301 );
+ exit();
+ }
 ?>
