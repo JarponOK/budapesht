@@ -6,9 +6,23 @@
 </head>
 
 <body>
-  <div id="root"></div>
-  <h1>Hello from index.html</h1>
+	<div id="root"></div>
+	<h1>Hello from index.html</h1>
+
+	<form action = "unknown.php" method = "post">
+		<input type="submit" name="up" value="<-">
+  		<input type="submit" name="down" value="->">
+  	</form>
+
+  	<span>
+  		<?php
+  			echo $err; 
+  			echo $itr;
+  	 	?>
+  	</span>
+
   <script src="./static/bundle.js"></script>
+
 </body>
 
 </html>
